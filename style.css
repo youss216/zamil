@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    font-family:  'Oxygen', sans-serif;;
+}
+
+
+.menu{
+    border: 1px black solid;
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+position: fixed;
+z-index: 1000;
+width: 100%;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+li{
+    color: blue;
+    margin-right: 10px;
+}
+
+#logo{
+    color: blue;
+}
+
+#loupe{
+    height: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#logo{
+    height: 120px;
+   position: relative;
+   bottom: 45px;
+}
+
+#cover{
+    height: 500px;
+    width: 100%;
+}
+
+#title2{
+    color: black;
+    font-size: 30px;
+}
+
+#title1{
+    color: white;
+    font-size: 70px;
+
+}
+
+.title{
+    position: relative;
+    bottom: 400px;
+    float: left;
+    margin-left: 20px;
+}
+
+#btn{
+    border-radius: 15px 15px 15px 15px;
+    border: 2px white solid;
+    background-color: #29abe2;
+    color: white;
+    padding: 10px;
+}
+
+#paper, #brain, #light{
+    height: 50px;
+}
+
+.hr{
+    width: 25%;
+   
+}
+
+hr{
+    height: 5px;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.cont1{
+display: flex;
+margin: auto;
+width: 1000px;
+position: relative;
+bottom: 300px;
+}
+
+.sect1{
+    border: 1px black solid;
+    background-color: #29abe2;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 0;
+}
+
+body{
+    background: black;
+}
+
+.sect2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: white;
+    padding-top: 100px;
+}
+
+.portfo{
+margin-bottom: 30px;
+border: 5px #29abe2 solid;
+border-radius: 15px 15px 15px 15px;
+}
+
+footer{
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color:black ;
+}
+
+#insta, #fb, #tw{
+    height: 20px;
+    background-color: white;
+    border: 1px white solid;
+    border-radius: 25px 25px 25px 25px;
+}
+
+
+
+@media all and (min-width: 320px) and (max-width: 768px){
+    .menu{
+        background-color: black;
+        width: 1000px;
+    }
+
+    #cover{
+        width: 1000px;
+    }
+
+    .title{
+        position: relative;
+        bottom: 500px;
+    }
+
+    .sect2{
+        width: 1000px;
+    }
+
+    footer{
+        width: 1000px;
+    }
+}
+
+@media all and (min-width: 1440px) and (max-width: 2560px){
+    .cont1{
+        position: relative;
+        top: 1px;
+        right: 230px;
+    }
+}
